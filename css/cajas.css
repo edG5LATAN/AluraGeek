@@ -1,0 +1,66 @@
+.cajas_1{
+   display: flex;
+   flex-direction: column;
+   margin: 15px 0;
+
+}
+.cajas_1_p{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.flecha_caja{
+  width: 20px;
+}
+.caja_contenedor{
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: lightcyan;
+  gap: 1em;
+  padding: 15px 0;
+}
+.caja_caja{
+  background-color: gray;
+  width: 200px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+}
+.caja_img{
+  margin: 5px;
+  width: 90%;
+  height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* <section class="cajas_1">
+<p clas>
+  Ver todo
+  <img
+    src="./imagenes/arrow_back_black_24dp 1.png"
+    alt="flecha de todo"
+    class="flecha_caja"
+  />
+</p>
+<div class="caja_contenedor">
+  <div class="caja_caja">
+    <img src="" class="caja_img" alt="" />
+    <h5>cosolalasj</h5>
+    <p><span>$</span> 60</p>
+    <a href="">ver producto</a>
+  </div>
+</div>
+</section> */

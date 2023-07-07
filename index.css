@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section{
+  width: 1136px;
+  height: auto;
+  box-sizing: border-box;
+}

@@ -1,0 +1,39 @@
+.promociones{
+  width: 100%;
+  height: 352px;
+  background-image: url(../imagenes/panoramica.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.promociones_section{
+   color: white;
+   /* background-color: green; */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   gap: 1em;
+}
+.promociones_titulo{
+   color: gray;
+}
+.promociones_subtitulo{
+   color: lightgoldenrodyellow;
+}
+.promociones_btn{
+  width: 182px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  transition: 0.4s;
+}
+.promociones_btn:hover{
+  background-color: lightgray;
+  color: black;
+}
+

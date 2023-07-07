@@ -1,0 +1,35 @@
+.quienes_somos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: aqua;
+  padding: 20px 0;
+}
+.quienes_somos_section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.quienes_somos1{
+  
+}
+.quienes_somos2{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+.quienes_somos3{
+  display: flex;
+  flex-direction: column;
+}
+.quienes_somos3_form{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+
+
+
+

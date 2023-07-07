@@ -1,0 +1,45 @@
+.header{
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+.header_icono{
+  padding-left: 30px;
+   width: 176px;
+   height: 50px;
+}
+.header_caja{
+  position: relative;
+   width: 70%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header_input_buscador{
+   width: 393px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+   border-radius: 20px;
+   gap: 8px;
+   position: relative;
+ text-align: center;
+}
+.input-icon{
+  position: absolute;
+  width: 22px;
+height: 22px;
+  top: 10px;
+  left: 350px;
+}
+.header_btn_buscar{
+  width: 182px;
+   height: 40px;
+   border-radius: 10px;
+   
+}
+.header_btn_buscar:hover{
+  background-color: azure;
+  cursor: pointer;
+}
