@@ -25,7 +25,19 @@
    gap: 8px;
    position: relative;
  text-align: center;
+ border: none;
+ font-size: larger;
 }
+.header_input_buscador:hover{
+  border: none;
+}
+.header_input_buscador::-webkit-search-cancel-button,.header_input_buscador::-webkit-search-decoration
+{
+  display: none;
+}
+.header_input_buscador:focus{
+   outline: none;
+  }
 .input-icon{
   position: absolute;
   width: 22px;
@@ -37,7 +49,7 @@ height: 22px;
   width: 182px;
    height: 40px;
    border-radius: 10px;
-   
+   border: 1px solid gray;
 }
 
 .header_btn_buscar:hover{

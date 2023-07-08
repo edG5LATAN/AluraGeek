@@ -4,29 +4,60 @@
   margin: 15px 0;
 }
 .caja_caja_itulo1 {
-  color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
 }
 .cajas_1_p {
   display: flex;
 }
 .flecha_caja {
   width: 20px;
+  height: 20px;
 }
 .caja_contenedor{
-  max-height: 200px ;
+  padding: 4px;
+  height: 300px;
+  /* max-height: 430px ; */
   border: 1px solid black;
   display: flex;
   overflow-x: auto;
   gap: 1em;
 }
+.caja_contenedor::-webkit-scrollbar{
+  background-color: rgb(247, 240, 240);
+  height: 18px;
+}
+.caja_contenedor::-webkit-scrollbar-thumb{
+  background: gray;
+  border-radius: 10px;
+}
 .caja_caja{
   min-width: 200px;
-  height: 240px;
-  line-height: 110px;
+  height: auto;
+  /* line-height: 110px; */
   padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: blue;
+  border-radius: 5px;
 }
 .caja_img {
+  width: 90%;
+  height: 190px;
    background-color: red;
+}
+.caja_caja-btn{
+  background-color: lightblue;
+  padding: 5px 9px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 3px 0;
+}
+.caja_caja-btn:hover{
+  background-color: lightskyblue;
+  color: white;
 }
 

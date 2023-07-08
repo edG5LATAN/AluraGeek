@@ -1,0 +1,49 @@
+
+.producto_contenedor_cajas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.producto_caja_agregar{
+  width: 80%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 0;
+}
+.producto_productos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+.producto_caja_caja {
+  min-width: 200px;
+  height: auto;
+  /* line-height: 110px; */
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 5px;
+}
+.producto_caja_img {
+  width: 90%;
+  height: 190px;
+  background-color: red;
+}
+.producto_caja_caja-btn {
+  background-color: lightblue;
+  padding: 5px 9px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 3px 0;
+}
+.producto_caja_caja-btn:hover {
+  background-color: lightskyblue;
+  color: white;
+}
