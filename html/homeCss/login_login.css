@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: auto;
-  height: 300px;
+  height: 390px;
   background-color: aquamarine;
 }
 .login_form{
@@ -29,15 +29,19 @@
   height: 30px;
   border-radius:5px ;
 }
+@media (max-width:768px) {
+  .login_input_email, .login_input_pass{
+    width: 90%;
+    height: 30px;
+    padding: 3px 5px;
+    border-radius: 4px;
+    font-size: larger;
+  }
+  .login_btn{
+    width: 100px;
+    height: 30px;
+    border-radius:5px ;
+  }
+}
 
 
-
-/* <section class="login_login">
-    <form action="" class="login_form">
-      <label for="">Correo</label>
-      <input type="email" class="login_input_email">
-      <label for="" class="login_label pass">Password</label>
-      <input type="password" class="login_input_pass" >
-      <button class="login_btn">loguer</button>
-    </form> */
-  /* </section> */

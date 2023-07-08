@@ -60,4 +60,12 @@
   background-color: lightskyblue;
   color: white;
 }
+@media (max-width:768px){
+  .caja_contenedor{
+    height: 280px;
+  }
+  .caja_caja{
+    min-width: 190px;  
+  }
 
+}

@@ -1,0 +1,35 @@
+.agregar_nuevo_producto{
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+padding: 15px 0;
+margin: 10px 0;
+}
+.agregar_nuevo_producto_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.agregar_nuevo_producto_titulo{
+    font-size: large;
+}
+.agregar_nuevo_producto_input{
+  width: 400px;
+  height: 30px;
+  padding: 3px 5px;
+  border-radius: 4px;
+  font-size: larger;
+}
+.agregar_nuevo_producto_btn{
+    width: 150px;
+  height: 30px;
+  border-radius:5px ;
+}
+@media (max-width:420px) {
+  .agregar_nuevo_producto_input{
+    margin: 0;
+    width: 90%;
+  }
+}
+
