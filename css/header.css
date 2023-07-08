@@ -39,9 +39,7 @@ height: 22px;
    border-radius: 10px;
    
 }
-.header_btn_buscar::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-}
+
 .header_btn_buscar:hover{
   background-color: azure;
   cursor: pointer;

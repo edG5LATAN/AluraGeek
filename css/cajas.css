@@ -1,66 +1,32 @@
-.cajas_1{
-   display: flex;
-   flex-direction: column;
-   margin: 15px 0;
-
-}
-.cajas_1_p{
-  width: 100%;
+.cajas_1 {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  margin: 15px 0;
 }
-.flecha_caja{
+.caja_caja_itulo1 {
+  color: red;
+}
+.cajas_1_p {
+  display: flex;
+}
+.flecha_caja {
   width: 20px;
 }
 .caja_contenedor{
+  max-height: 200px ;
+  border: 1px solid black;
   display: flex;
-  justify-content: space-around;
-  overflow: hidden;
-  background-color: lightcyan;
+  overflow-x: auto;
   gap: 1em;
-  padding: 15px 0;
 }
 .caja_caja{
-  background-color: gray;
-  width: 200px;
+  min-width: 200px;
   height: 240px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  line-height: 110px;
   padding: 5px 0;
+  background-color: blue;
 }
-.caja_img{
-  margin: 5px;
-  width: 90%;
-  height: 80%;
+.caja_img {
+   background-color: red;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* <section class="cajas_1">
-<p clas>
-  Ver todo
-  <img
-    src="./imagenes/arrow_back_black_24dp 1.png"
-    alt="flecha de todo"
-    class="flecha_caja"
-  />
-</p>
-<div class="caja_contenedor">
-  <div class="caja_caja">
-    <img src="" class="caja_img" alt="" />
-    <h5>cosolalasj</h5>
-    <p><span>$</span> 60</p>
-    <a href="">ver producto</a>
-  </div>
-</div>
-</section> */
