@@ -1,5 +1,5 @@
 .login_container {
-  background-color: red;
+  background-color: rgb(219, 225, 245);
   display: flex;
   justify-content: space-around;
   align-items: center;

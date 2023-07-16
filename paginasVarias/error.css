@@ -1,0 +1,104 @@
+.contenedor_error{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 300px;
+   width: 100%;
+}
+.caja_error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    border:1pz solid gray ;
+    box-shadow: 4px 5px 4px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(243, 12, 12);
+    
+}
+.caja_error h1{
+  text-align: center;
+  margin: 5px 0;
+}
+.caja_error img{
+justify-content: center;
+margin: 5px 0;
+}
+
+.error_btn{
+    width: 160px;
+    padding: 8px 4px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(231, 212, 212);
+    color: black;
+}
+.error_btn:hover{
+    background-color: white;
+}
+.correcto{
+    background-color: green;
+}
+/* aca ba el de slider */
+.pagina_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    gap: 1em;
+
+}
+.pagina{
+  width: 90%;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid rgb(100, 97, 97);
+  border-radius: 10px;
+
+}
+.pagina img{
+  width: 40%;
+  max-height: 350px;
+  min-height: 300px;
+  border-radius: 5px;
+}
+.pagina_info{
+    width: 60%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.pagina_info h3 {
+  padding: 10px 0;
+  font-size: large;
+  text-align: center;
+}
+.pagina_info h5{
+  padding: 10px 0;
+  text-align: center;
+}
+.pagina_info p{
+  text-align: justify;
+  padding: 10px;
+}
+.pagina_precio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagina_slider{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -17,7 +17,8 @@
 <body>
     <div class="container">
         <section class="header">
-            <img src="..//imagenes/logos/Logo.png" class="header_icono" alt="" />
+            <a href="../index.html"><img src="..//imagenes/logos/Logo.png" class="header_icono" alt="" /></a>
+            
             <div class="header_caja">
                 <input type="search" placeholder="Search" class="header_input_buscador" />
                 <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
@@ -25,18 +26,23 @@
                         d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
                         clip-rule="evenodd" />
                 </svg>
-                <button class="header_btn_buscar">Menu Principal</button>
+                <button class="header_btn_buscar"><a href="../index.html" class="btn_general">Menu Principal</a></button>
             </div>
         </section>
 
         <section class="agregar_nuevo_producto">
-            <form action="" class="agregar_nuevo_producto_form">
+            <form action="" class="agregar_nuevo_producto_form" data-form>
                 <h3 class="agregar_nuevo_producto_titulo">Agregar Nuevo Producto</h3>
-                <input type="text" required placeholder="Ingrese su url de Imagen" class="agregar_nuevo_producto_input">
-                <input type="text" required placeholder="Ingrese la categoria" class="agregar_nuevo_producto_input">
-                <input type="text" required placeholder="Ingrese nombre de producto" class="agregar_nuevo_producto_input">
-                <input type="text" required placeholder="Ingrese su precio" class="agregar_nuevo_producto_input">
-                <textarea name="" id="" cols="30" rows="4" class="agregar_nuevo_producto_input_textArea"></textarea>
+                <input type="text" required placeholder="Ingrese su url de Imagen" class="agregar_nuevo_producto_input" data-url>
+                <select name="categoria" id="" data-categoria>
+                    <option value=""></option>
+                    <option value="consola">Consola</option>
+                    <option value="videojuegos">Video Juegos</option>
+                    <option value="accesorio">Accesorios</option>
+                </select>
+                <input type="text" required placeholder="Ingrese nombre de producto" class="agregar_nuevo_producto_input" data-nombre>
+                <input type="text" required placeholder="Ingrese su precio" class="agregar_nuevo_producto_input" data-precio>
+                <textarea name="" id="" cols="30" rows="4" class="agregar_nuevo_producto_input_textArea" data-info></textarea>
                 <button type="submit" class="agregar_nuevo_producto_btn">Agregar Producto</button>
             </form>
 
@@ -52,17 +58,17 @@
                     <img src="..//imagenes/logos/Logo.png" class="quienes_somos_1-img" />
                 </div>
                 <div class="quienes_somos2">
-                    <a href="" class="quenes_somos2-tex">Quiene somos</a>
-                    <a href="" class="quenes_somos2-tex">Politicas de privacidad</a>
-                    <a href="" class="quenes_somos2-tex">Programas de fidelidad</a>
-                    <a href="" class="quenes_somos2-tex">Nuestra tarjetas</a>
-                    <a href="" class="quenes_somos2-tex">Anuenciece aqui</a>
+                    <a href="./documentos/quienesSomos.pdf" class="quenes_somos2-tex">Quiene somos</a>
+          <a href="https://policies.google.com/privacy?hl=es" class="quenes_somos2-tex">Politicas de privacidad</a>
+          <a href="https://www.oracle.com/lad/education/oracle-next-education/" class="quenes_somos2-tex">Programas de fidelidad</a>
+          <a href="https://www.linkedin.com/in/edwin-castro-13a763272/" class="quenes_somos2-tex">Nuestra tarjetas</a>
+          <a href="https://www.linkedin.com/in/edwin-castro-13a763272/" class="quenes_somos2-tex">Anuenciece aqui</a>
                 </div>
                 <div class="quienes_somos3">
                     <form action="" class="quienes_somos3_form">
-                        <h3>Hbale con nostros</h3>
-                        <input placeholder="ingrese su nombre" type="text" />
-                        <input placeholder="ingrese su nombre" type="text" />
+                        <h3>Hable con nostros</h3>
+                        <input placeholder="ingrese su nombre" required type="text" />
+                        <input placeholder="ingrese su nombre" required type="text" />
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -74,6 +80,8 @@
         <h6>2023</h6>
     </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controller/consola/agregarConsola.js"></script>
 </body>
 
 </html>

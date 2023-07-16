@@ -1,0 +1,184 @@
+{
+  "consolas": [
+    {
+      "id": 1,
+      "url": "https://i.blogs.es/435ece/capcom/450_1000.jpg",
+      "categoria": "consola",
+      "nombre": "play4",
+      "precio": "60",
+      "descripcion": "consola nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 2,
+      "url": "https://www.experimenta.es/wp-content/uploads/2018/06/nes-classic-nintendo-tecnologia-01.jpg",
+      "categoria": "consola",
+      "nombre": "nintendo",
+      "precio": "70",
+      "descripcion": "consola nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "url": "https://i.blogs.es/6773df/xbox-20one/450_1000.jpg",
+      "categoria": "consola",
+      "nombre": "consola3",
+      "precio": "999",
+      "descripcion": "consola nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "url": "https://media.vandal.net/i/1200x630/3-2023/20233710481318_1.jpg",
+      "categoria": "consola",
+      "nombre": "xbox",
+      "precio": "90",
+      "descripcion": "consola nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 5,
+      "url": "https://images.nintendolife.com/38d322c76116e/1280x720.jpg",
+      "categoria": "consola",
+      "nombre": "atary",
+      "precio": "100",
+      "descripcion": "consola nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 6,
+      "url": "https://as01.epimg.net/showroom/imagenes/2018/11/20/portada/1542669636_511861_1542720609_sumario_normal.jpg",
+      "categoria": "consola",
+      "nombre": "consola6",
+      "precio": "110",
+      "descripcion": "consola nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 7,
+      "url": "https://cnnespanol.cnn.com/wp-content/uploads/2016/07/nintendo-64-consola-nintendo.jpg?quality=100&strip=info&w=320&h=240&crop=1",
+      "categoria": "consola",
+      "nombre": "consola7",
+      "precio": "120",
+      "descripcion": "consola nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    }
+  ],
+  "videojuego": [
+    {
+      "id": 1,
+      "url": "https://img.unocero.com/2014/02/BIOSHOCK.jpg",
+      "categoria": "videojuego",
+      "nombre": " juego 1",
+      "precio": "10",
+      "descripcion": "videjuegos nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 2,
+      "url": "https://los40.com/resizer/uu1ipMDb-0okzr_AQvZCONnI91w=/654x785/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/XVRM4ZSAIRIFVOQ5U5EFOYJ6ZQ.jpg",
+      "categoria": "videojuego",
+      "nombre": "juego 2",
+      "precio": "40",
+      "descripcion": "videojuegos nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 3,
+      "url": "https://elrehilete.files.wordpress.com/2009/03/12.jpg",
+      "categoria": "videojuego",
+      "nombre": "juego 3",
+      "precio": "80",
+      "descripcion": "videojuegos nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 4,
+      "url": "https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/B7UZNO3OQZOINFJFY2YIF67D6M.jpg",
+      "categoria": "videojuego",
+      "nombre": "juego 4",
+      "precio": "60",
+      "descripcion": "videojuegos nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 5,
+      "url": "https://guiltybit.com/wp-content/uploads/2022/04/The-Last-Guardian.webp",
+      "categoria": "videojuego",
+      "nombre": "juego 5",
+      "precio": "50",
+      "descripcion": "videojuegos nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 6,
+      "url": "https://i0.wp.com/freakelitex.com/wp-content/uploads/2017/01/legend-zelda-breath-wild.jpg?resize=640%2C1037&ssl=1",
+      "categoria": "videojuego",
+      "nombre": "juego 6",
+      "precio": "34",
+      "descripcion": "videojuegos nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 7,
+      "url": "https://img.unocero.com/2015/07/Metroid_prime_box_art.jpg",
+      "categoria": "videojuego",
+      "nombre": "juego 7",
+      "precio": "120",
+      "descripcion": "videojuegos nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/718NYy9r6KL.jpg",
+      "categoria": "videojuego",
+      "nombre": "prueba",
+      "precio": "9000",
+      "descripcion": "esta es la prueba de creacion",
+      "id": "31a3dcbd-169f-44a2-8097-d5c20804a8fa"
+    }
+  ],
+  "accesorios": [
+    {
+      "id": 1,
+      "url": "https://m.media-amazon.com/images/I/71zDDvJPHxL._AC_UF894,1000_QL80_.jpg",
+      "categoria": "accesorio",
+      "nombre": " accesorio 1",
+      "precio": "79",
+      "descripcion": "accesorio nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 2,
+      "url": "https://extendedplay.es/wp-content/uploads/2020/02/LLAVEROS-JINX.jpg",
+      "categoria": "accesorio",
+      "nombre": " accesorio 2",
+      "precio": "19",
+      "descripcion": "acceesorio nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 3,
+      "url": "https://images-na.ssl-images-amazon.com/images/I/61dZ-PU680L._SY355_.jpg",
+      "categoria": "accesorio",
+      "nombre": " accesorio 3",
+      "precio": "90",
+      "descripcion": "acceesorio nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 4,
+      "url": "https://freakshop.es/wp-content/uploads/2022/05/Llavero-POCKET-POP-Disney-World-50th-Peter-Pan.jpg",
+      "categoria": "accesorio",
+      "nombre": " accesorio 4",
+      "precio": "80",
+      "descripcion": "acceesorio nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 5,
+      "url": "https://m.media-amazon.com/images/I/514Sf9CK83L._AC_UF894,1000_QL80_.jpg",
+      "categoria": "accesorio",
+      "nombre": " accesorio 5",
+      "precio": "110",
+      "descripcion": "accesorio nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 6,
+      "url": "https://cl.buscafs.com/www.levelup.com/public/uploads/images/654236_670x670.jpg",
+      "categoria": "accesorio",
+      "nombre": " accesorio 6",
+      "precio": "17",
+      "descripcion": "accesorio nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    },
+    {
+      "id": 7,
+      "url": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202207/07/00102712119938____16__640x640.jpg",
+      "categoria": "accesorio",
+      "nombre": " accesorio 7",
+      "precio": "30",
+      "descripcion": "accesorio nuemero uno estilo bindage retro que fue famosa en sus tiempor con los mejores juegos"
+    }
+  ]
+}

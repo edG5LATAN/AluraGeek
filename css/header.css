@@ -1,5 +1,5 @@
 .header {
-  background-color: red;
+  background-color: rgb(219, 225, 245);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -46,10 +46,16 @@
   left: 350px;
 }
 .header_btn_buscar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
   width: 182px;
   height: 40px;
   border-radius: 10px;
   border: 1px solid gray;
+  text-decoration: none;
 }
 
 .header_btn_buscar:hover {

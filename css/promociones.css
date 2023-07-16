@@ -1,7 +1,8 @@
 .promociones{
   width: 100%;
-  height: 352px;
-  background-image: url(../imagenes/panoramica.jpg);
+  height: 330px;
+  background-image: url(../imagenes/panoramica.webp);
+  background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
   display: flex;
@@ -19,10 +20,10 @@
    gap: 1em;
 }
 .promociones_titulo{
-   color: gray;
+   color: white;
 }
 .promociones_subtitulo{
-   color: lightgoldenrodyellow;
+   color: whitesmoke;
 }
 .promociones_btn{
   width: 182px;

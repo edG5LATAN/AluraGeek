@@ -6,8 +6,7 @@
   <link rel="stylesheet" href="../../index.css">
   <link rel="stylesheet" href="../homeCss/login.css">
   <link rel="stylesheet" href="../homeCss/login_login.css">
-  <!-- <link rel="stylesheet" href="../homeCss/login_quienesSomos.css">
-  <link rel="stylesheet" href="../../css/footer.css"> -->
+  
   <link rel="stylesheet" href="../../css/quienesSomos.css">
   <link rel="stylesheet" href="../../css/footer.css">
 
@@ -16,7 +15,10 @@
 <body class="body-login">
   <div class="login_container">
     <section class="login_container-header">
-      <img src="../../imagenes/logos/Logo.png" class="login_container_header_icono" alt="" />
+      <a href="../../index.html"> 
+        <img src="../../imagenes/logos/Logo.png" class="login_container_header_icono" alt="" />
+      </a>
+     
       <div class="login_container_header_caja">
         <input type="search" placeholder="Search" class="login_container_header_input_buscador" />
         <svg xmlns="http://www.w3.org/2000/svg" class="login_container_input-icon" viewBox="0 0 20 20" fill="currentColor">
@@ -29,54 +31,33 @@
   </div>
 
   <section class="login_login">
-    <form action="" class="login_form">
+    <form action="" class="login_form" data-form>
       <label for="" class="login_label correo">Correo</label>
-      <input type="email" class="login_input_email">
+      <input type="email" required class="login_input_email" data-user>
       <label for="" class="login_label pass">Password</label>
-      <input type="password" class="login_input_pass" >
+      <input type="password" required class="login_input_pass" data-pass>
       <button class="login_btn">loguer</button>
     </form>
   </section>
 
-  <!-- <div class="login_quienes_somos">
-    <section class="Login_quienes_somos_section">
-      <div class="login_quienes_somos1">
-        <img src="../../imagenes/logos/Logo.png" class="login_quienes_somos_1-img" />
-      </div>
-      <div class="login_quienes_somos2">
-        <a href="" class="login_quenes_somos2-tex">Quiene somos</a>
-        <a href="" class="login_quenes_somos2-tex">Politicas de privacidad</a>
-        <a href="" class="login_quenes_somos2-tex">Programas de fidelidad</a>
-        <a href="" class="login_quenes_somos2-tex">Nuestra tarjetas</a>
-        <a href="" class="login_quenes_somos2-tex">Anuenciece aqui</a>
-      </div>
-      <div class="login_quienes_somos3">
-        <form action="" class="login_quienes_somos3_form">
-          <h3>Hbale con nostros</h3>
-          <input placeholder="ingrese su nombre" class="login_quienes_somos_input" type="text" />
-          <input placeholder="ingrese su nombre" class="login_quienes_somos_input" type="text" />
-          <button type="submit" class="login_quienes_somos_btn">Enviar</button>
-        </form>
-      </div>
-    </section>
-  </div> -->
+ 
   <div class="quienes_somos">
     <section class="quienes_somos_section">
       <div class="quienes_somos1">
         <img src="../../imagenes/logos/Logo.png" class="quienes_somos_1-img" />
       </div>
       <div class="quienes_somos2">
-        <a href="" class="quenes_somos2-tex">Quiene somos</a>
-        <a href="" class="quenes_somos2-tex">Politicas de privacidad</a>
-        <a href="" class="quenes_somos2-tex">Programas de fidelidad</a>
-        <a href="" class="quenes_somos2-tex">Nuestra tarjetas</a>
-        <a href="" class="quenes_somos2-tex">Anuenciece aqui</a>
+        <a href="./documentos/quienesSomos.pdf" class="quenes_somos2-tex">Quiene somos</a>
+          <a href="https://policies.google.com/privacy?hl=es" class="quenes_somos2-tex">Politicas de privacidad</a>
+          <a href="https://www.oracle.com/lad/education/oracle-next-education/" class="quenes_somos2-tex">Programas de fidelidad</a>
+          <a href="https://www.linkedin.com/in/edwin-castro-13a763272/" class="quenes_somos2-tex">Nuestra tarjetas</a>
+          <a href="https://www.linkedin.com/in/edwin-castro-13a763272/" class="quenes_somos2-tex">Anuenciece aqui</a>
       </div>
       <div class="quienes_somos3">
         <form action="" class="quienes_somos3_form">
-          <h3>Hbale con nostros</h3>
-          <input placeholder="ingrese su nombre" type="text" />
-          <input placeholder="ingrese su nombre" type="text" />
+          <h3>Hable con nostros</h3>
+          <input placeholder="ingrese su nombre" required type="text" />
+          <input placeholder="ingrese su nombre" required type="text" />
           <button type="submit">Enviar</button>
         </form>
       </div>
@@ -86,7 +67,6 @@
     <h5>Desarrollado por Edwin Castro</h5>
     <h6>2023</h6>
   </footer>
-
-  
+  <script type="module" src="../../loginJS/login.js"></script>
 </body>
 </html>

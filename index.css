@@ -13,6 +13,18 @@ section{
   height: auto;
   box-sizing: border-box;
 }
+.btn_modificadores{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.btn_op:hover{
+  transform: scale(1.4);
+  cursor: pointer;
+}
+.btn_general{
+  text-decoration: none;
+}
 @media (max-width:768px) {
   section{
     width: 100%;
