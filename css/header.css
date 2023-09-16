@@ -93,7 +93,7 @@
     border: 1px solid gray;
   }
 }
-@media(max-width:380px){
+@media(max-width:480px){
   .input-icon {
     position: absolute;
     width: 22px;
@@ -103,12 +103,10 @@
   }
   .header{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .header_caja{
-    display: grid;
     align-items: center;
     justify-content: center;
     gap: 1em;
