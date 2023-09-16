@@ -52,17 +52,17 @@ margin: 5px 0;
     align-items: center;
     margin: 15px 0;
     gap: 1em;
-
 }
 .pagina{
-  width: 90%;
+  width: 60%;
   background-color: lightcyan;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  border: 1px solid rgb(100, 97, 97);
+  /* border: 5px solid rgb(100, 97, 97); */
   border-radius: 10px;
+  box-shadow: 1px 2px 4px 1px;
 
 }
 .pagina img{
@@ -79,7 +79,7 @@ margin: 5px 0;
 }
 .pagina_info h3 {
   padding: 10px 0;
-  font-size: large;
+  font-size: 22px;
   text-align: center;
 }
 .pagina_info h5{
@@ -88,12 +88,15 @@ margin: 5px 0;
 }
 .pagina_info p{
   text-align: justify;
-  padding: 10px;
+  padding: 3px 18px;
 }
 .pagina_precio{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: red;
+  font-size: 19px;
+  font-weight: bold;
 }
 .pagina_slider{
     width: 100%;

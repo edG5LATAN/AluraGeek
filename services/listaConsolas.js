@@ -1,9 +1,11 @@
+const url="https://apialurageek-1yme.onrender.com/consolas"
+
 const listaConsola=()=>{
-   return fetch("http://localhost:3000/consolas").then(res=>res.json());
+   return fetch(url).then(res=>res.json());
 }
 
 const crearConsola=(url,categoria,nombre,precio,descripcion)=>{
-    return fetch("http://localhost:3000/consolas",{
+    return fetch("https://apialurageek-1yme.onrender.com/consolas",{
         method:"POST",
         headers:{
            "Content-Type":"application/json"
@@ -13,13 +15,13 @@ const crearConsola=(url,categoria,nombre,precio,descripcion)=>{
 }
 
 const eliminarConsola=(id)=>{
-    return fetch(`http://localhost:3000/consolas/${id}`,{
+    return fetch(`${url}/${id}`,{
         method:"DELETE"}
     );
 }
 
 const updateConsola=(url,categoria,nombre,precio,descripcion,id)=>{
-    return fetch(`http://localhost:3000/consolas/${id}`,{
+    return fetch(`https://apialurageek-1yme.onrender.com/consolas/${id}`,{
         method:"PUT",
         headers:{
            "Content-Type":"application/json"
@@ -29,11 +31,11 @@ const updateConsola=(url,categoria,nombre,precio,descripcion,id)=>{
 }
 
 const detalleConsola=(id)=>{
-  return fetch(`http://localhost:3000/consolas/${id}`).then(res=>res.json());  
+  return fetch(`${url}/${id}`).then(res=>res.json());  
 }
 
 const nombreConsola=(nombre)=>{
-    return fetch(`http://localhost:3000/consolas/?q=${nombre}`).then(res=>res.json());  
+    return fetch(`${url}/?q=${nombre}`).then(res=>res.json());  
   }
 
 export const listasConsola={

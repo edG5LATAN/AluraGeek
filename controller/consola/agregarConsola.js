@@ -33,7 +33,7 @@ switch (tipo) {
       descripcion.value = perfil.descripcion;
     });
     break;
-  case "videojuego":
+  case "videojuegos":
     listasVideoJuegos.detalleVideoJuego(id).then((perfil) => {
       url.value = perfil.url;
       categoria.value = perfil.categoria;
@@ -69,8 +69,7 @@ formulario.addEventListener("submit", (e) => {
         );
       break;
     case "accesorio":
-      listaAccesorios
-        .updateAccesorio(
+      listaAccesorios.updateAccesorio(
           url.value,
           categoria.value,
           nombre.value,
@@ -82,9 +81,8 @@ formulario.addEventListener("submit", (e) => {
           (re) => (window.location.href = "../paginasVarias/edicionExitosa.htm")
         );
       break;
-    case "videojuego":
-      listasVideoJuegos
-        .updateVideoJuego(
+    case "videojuegos":
+      listasVideoJuegos.updateVideoJuego(
           url.value,
           categoria.value,
           nombre.value,
@@ -98,7 +96,7 @@ formulario.addEventListener("submit", (e) => {
       break;
     default:
       switch (categoria.value) {
-        case "videoJuegos":
+        case "videojuegos":
           listasVideoJuegos
             .crearVideoJuegos(
               url.value,
@@ -131,7 +129,7 @@ formulario.addEventListener("submit", (e) => {
             );
 
           break;
-        case "accesorios":
+        case "accesorio":
           listaAccesorios
             .crearAccesorio(
               url.value,

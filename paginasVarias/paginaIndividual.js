@@ -91,8 +91,7 @@ switch (tipo) {
            caja2.innerHTML=contenido2;   
            
         return caja2
- };
- 
+ };   
 
  const contenedor2=document.querySelector("[data-contenedor1]");
  

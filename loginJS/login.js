@@ -8,9 +8,11 @@ const tipo =url.searchParams.get("tipo");
 const btn =url.searchParams.get("btn");
 console.log(btn)
 
+const errorLogin=document.querySelector("[data-error-login]");
 const formulario= document.querySelector("[data-form]");
 const login="admin@gmail.com";
 const clave="1234";
+
 
 
 formulario.addEventListener("submit",(e)=>{
@@ -62,10 +64,10 @@ formulario.addEventListener("submit",(e)=>{
        }
 
      }else{
-      alert("ingresate correo incorrecto")
+      errorLogin.textContent="ingresate correo incorrecto";
      }
   }else{
-     alert("correo o pass invalido")
+     errorLogin.textContent="correo o pass invalido";
   }
 
 })

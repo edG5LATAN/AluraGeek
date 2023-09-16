@@ -28,6 +28,16 @@
   height: 30px;
   border-radius:5px ;
 }
+.error-login{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
 @media (max-width:768px) {
   .login_input_email, .login_input_pass{
     width: 90%;

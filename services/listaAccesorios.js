@@ -1,9 +1,10 @@
+const url="https://apialurageek-1yme.onrender.com/accesorios"
+
 const listaAccesorio=()=>{
-    return fetch("http://localhost:3000/accesorios").then(res=>res.json());
+    return fetch(url).then(res=>res.json());
  }
- 
  const crearAccesorio=(url,categoria,nombre,precio,descripcion)=>{
-    return fetch("http://localhost:3000/accesorios",{
+    return fetch("https://apialurageek-1yme.onrender.com/accesorios",{
         method:"POST",
         headers:{
            "Content-Type":"application/json"
@@ -13,13 +14,13 @@ const listaAccesorio=()=>{
 }
  
 const eliminarAccesorio=(id)=>{
-    return fetch(`http://localhost:3000/accesorios/${id}`,{
+    return fetch(`${url}/${id}`,{
         method:"DELETE"}
     );
 }
  
 const updateAccesorio=(url,categoria,nombre,precio,descripcion,id)=>{
-    return fetch(`http://localhost:3000/accesorios/${id}`,{
+    return fetch(`https://apialurageek-1yme.onrender.com/accesorios/${id}`,{
         method:"PUT",
         headers:{
            "Content-Type":"application/json"
@@ -29,7 +30,7 @@ const updateAccesorio=(url,categoria,nombre,precio,descripcion,id)=>{
 }
 
 const detalleAccesorio=(id)=>{
-  return fetch(`http://localhost:3000/accesorios/${id}`).then(res=>res.json());  
+  return fetch(`${url}/${id}`).then(res=>res.json());  
 }
 
  

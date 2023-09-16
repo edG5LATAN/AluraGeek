@@ -1,9 +1,11 @@
+const url ="https://apialurageek-1yme.onrender.com/videojuego"
+
 const listaVideoJuego=()=>{
-    return fetch("http://localhost:3000/videojuego").then(res=>res.json());
+    return fetch(url).then(res=>res.json());
  }
  
  const crearVideoJuegos=(url,categoria,nombre,precio,descripcion)=>{
-    return fetch("http://localhost:3000/videojuego",{
+    return fetch("https://apialurageek-1yme.onrender.com/videojuego",{
         method:"POST",
         headers:{
            "Content-Type":"application/json"
@@ -13,13 +15,13 @@ const listaVideoJuego=()=>{
 }
  
 const eliminarVideoJuego=(id)=>{
-    return fetch(`http://localhost:3000/videojuego/${id}`,{
+    return fetch(`${url}/${id}`,{
         method:"DELETE"}
     );
 } 
 
 const updateVideoJuego=(url,categoria,nombre,precio,descripcion,id)=>{
-    return fetch(`http://localhost:3000/videojuego/${id}`,{
+    return fetch(`https://apialurageek-1yme.onrender.com/videojuego/${id}`,{
         method:"PUT",
         headers:{
            "Content-Type":"application/json"
@@ -29,7 +31,7 @@ const updateVideoJuego=(url,categoria,nombre,precio,descripcion,id)=>{
 }
 
 const detalleVideoJuego=(id)=>{
-  return fetch(`http://localhost:3000/videojuego/${id}`).then(res=>res.json());  
+  return fetch(`${url}/${id}`).then(res=>res.json());  
 }
  
  

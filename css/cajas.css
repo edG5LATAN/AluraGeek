@@ -31,6 +31,7 @@
   /* border: 1px solid black; */
   display: flex;
   overflow-x: auto;
+  scrollbar-width:none;
   gap: 1em;
 }
 .caja_contenedor::-webkit-scrollbar{
