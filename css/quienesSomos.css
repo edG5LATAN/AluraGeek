@@ -11,9 +11,7 @@
   justify-content: space-around;
   align-items: center;
 }
-.quienes_somos1{
-  
-}
+
 .quienes_somos2{
   display: flex;
   flex-direction: column;
@@ -30,13 +28,29 @@
   gap: 1em;
 }
 
-@media(max-width:420px){
+@media(max-width:480px){
   .quienes_somos_section{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
     align-items: center;
     gap: 1em;
+  }
+  .quienes_somos3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quienes_somos3_form{
+    width: 80%;
+    text-align: center;
+  }
+  .quienes_somos3_form input{
+    padding: 3px 4px;
+  }
+  .quienes_somos3_form button{
+    width: 50%;
   }
 }
 

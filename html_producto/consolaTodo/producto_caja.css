@@ -58,3 +58,10 @@ button{
 button a{
   text-decoration: none;
 }
+@media (max-width:480px) {
+  .producto_caja_caja{
+    width: 180px;
+    height: 300px;
+
+  }
+}
