@@ -4,7 +4,10 @@
 
 # <Your-Project-Title>
 
-## Descripción
+# correo = admin@gmail.com
+# pass = 1234
+
+# Descripción
 Proyecto de AluraGeek sobre una tienda de gamer de ventas de consolas videojuegos y accesorios :
 
 - proyecto desarrollado con ayuda de Alura lata y Oracle
@@ -14,17 +17,21 @@ Proyecto de AluraGeek sobre una tienda de gamer de ventas de consolas videojuego
 
 ## Tecnologias usadas (opcional)
 
-Si su README es extenso, agregue un índice para facilitar que los usuarios encuentren lo que necesitan.
+Aca dejo tecnologias usadas en el proyecto .
 
 - [HTML](#HTML)
 - [CSS](#CSS)
 - [JavaScript](#JS(JavaScript))
 - [GitHub](#GitHub)
+- [Json server](#JsonServer)
 
 ## Uso
 
-Para poder utilizarlo debes de ver el video de la instalacion de de JSONSERVER
-https://www.youtube.com/watch?v=AwCXDIj8Apo
+Para su uso dejo correo y pass para agregar editar y actualizar productos asi como su descripcion de cada uno de ellos en v2.0 ya se cuenta con busquedas 
+# Curso de Html Css y Js de alura lata 
+#oraclenexteducation 
+
+https://www.linkedin.com/feed/update/urn:li:activity:7108579221458837504/
 
 ## Crédito
 
