@@ -1,7 +1,21 @@
-# AluraGeek
-# proyecto de alura geek
-![alura-latan](https://github.com/edG5LATAN/EncriptadorG5/assets/136633393/96afbeb0-fd77-429e-b48b-b46b4ccd1fbb)
+# Proyecto Alura Geek de ventas Gamming
 
+Proyecto de una pagina de ventas con sus productos en este caso de videojuegos y consolas gamming donde podras ver cada uno de sus productos individualmente y podras implementar un CRUD ya que usa un Backend de Json Server.
+Si notas que tarda no desesperes es el backend que esta subido en Render y tarda un poco en leerlo 
+
+
+![Logo](https://i.pinimg.com/originals/3e/1f/ed/3e1fed743bdfdb2abfd308a815d08e9c.png)
+
+
+
+## 🔗 Links
+link de web ya desplegada dale click 
+[![despliefue en GitHub](https://img.shields.io/badge/AluraGeek-000?style=for-the-badge&logo=ko-fi&logoColor=gold)](https://edg5latan.github.io/AluraGeek/)
+
+
+
+link de perfil de linkedin para ver mas proyectos frontend y backend
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=gold)](https://www.linkedin.com/in/edwin-castro-13a763272/)
 # <Your-Project-Title>
 
 ## Descripción
